@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tacticalflashlightmod",
+  "version": "1.0.0",
+  "name": "Tactical Flashlight Mod",
+  "description": "A custom military flashlight item with a keybind to toggle it on and off.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.huggy0824.tacticalflashlightmod.TacticalFlashlightMod"
+    ]
+  },
+  "mixins": [
+    "tacticalflashlightmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
